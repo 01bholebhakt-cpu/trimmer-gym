@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{margin:0;font-family:Arial;background:#0b0b0b;color:#fff}
 a{text-decoration:none;color:inherit}
 .hero{height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:radial-gradient(circle,#111,#000)}
