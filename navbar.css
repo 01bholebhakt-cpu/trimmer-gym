@@ -1,0 +1,8 @@
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;position:sticky;top:0;background:#000;z-index:999}
+.logo{font-size:1.8rem;font-weight:800;text-transform:uppercase}
+.logo span{color:#c9a661}
+.menu{list-style:none;display:flex;gap:30px}
+.menu li{position:relative}
+.submenu{display:none;position:absolute;top:100%;left:0;background:#111;list-style:none;padding:15px}
+.dropdown:hover .submenu{display:block}
+.submenu li{padding:8px 0}
